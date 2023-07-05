@@ -18,13 +18,9 @@ Beshieficator 2000 MK2 is a meme website that adds "beshie" emojis to a sentence
 
 Contributions to the project are welcome! If you encounter any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
-- The Beshieficator 2000 MK2 was inspired by the concept of adding emojis to text for humorous effect.
+- The Beshieficator 2000 MK2 was inspired by the concept of adding emojis to text for humorous effect (IDK what to put here).
 
 ## Contact
 
