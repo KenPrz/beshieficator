@@ -23,8 +23,10 @@ body {
 .nav ul {
     display: flex;
     justify-content: space-between;
-    padding: .5em;
+    padding: 1em;
+    margin: 0;
 }
+
 
 .nav a {
     text-decoration: none;
@@ -43,12 +45,14 @@ body {
 }
 
 .main {
+    padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h1,p {
+h1,
+p {
     color: #FAFAFB;
     margin: 0;
     padding-top: 0;
@@ -64,12 +68,14 @@ h1,p {
     flex-direction: column;
     align-items: center;
 }
-.beshified{
+
+.beshified {
     max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .beshified-container {
     margin-top: .5em;
     padding: .5em;
@@ -77,9 +83,10 @@ h1,p {
     width: 75%;
 }
 
-#sentenceForm{
+#sentenceForm {
     padding-top: .5em;
 }
+
 /* Style the input field */
 #sentenceInput {
     padding: 0.5rem;
@@ -103,11 +110,12 @@ h1,p {
 }
 
 /* Change the submit button color on hover */
-#sentenceForm button[type="submit"]:hover,#copyTextButton:hover {
+#sentenceForm button[type="submit"]:hover,
+#copyTextButton:hover {
     background-color: #3c5f8a;
 }
 
-#copyTextButton{
+#copyTextButton {
     margin-top: .5em;
     padding: .2em;
     width: 80%;
@@ -119,7 +127,37 @@ h1,p {
     cursor: pointer;
     transition: .5s ease;
 }
-#copiedText{
+
+#copiedText {
     font-size: 16px;
     color: green;
+}
+
+/* CSS for mobile screens */
+@media (max-width: 600px) {
+
+    h1{
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
+        padding-bottom: 1em;
+    }
+
+    .nav-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .form-container {
+        max-width: 90%;
+    }
+
+    .beshified {
+        max-width: 90%;
+    }
+
+    #sentenceInput {
+        width: 100%;
+    }
 }
