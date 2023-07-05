@@ -1,53 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
-*{
-    font-family: 'Poppins', sans-serif;  
+
+* {
+    font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
     background-color: #fadfe0d1;
 }
 
-.nav{
+.nav {
     background-color: #CBD5F0;
     justify-content: center;
 }
 
-.nav-container{
+.nav-container {
     padding-left: 25%;
     padding-right: 25%;
 }
 
-.nav ul{
+.nav ul {
     display: flex;
     justify-content: space-between;
     padding: .5em;
 }
 
-.nav a{
+.nav a {
     text-decoration: none;
     color: #194F92;
     transition: .5s ease;
 }
-.nav li{
+
+.nav li {
     list-style: none;
-    
+
 }
-.nav a:hover{
+
+.nav a:hover {
     color: #3c5f8a;
     transition: .5s ease;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main h1{
+
+.main h1 {
     color: #FAFAFB;
 }
 
-.form-container{
+.form-container {
     background-color: #EFB7BA;
     padding: 2rem;
     margin: 1rem;
@@ -55,4 +60,60 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.beshified{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.beshified-container {
+    margin-top: .5em;
+    padding: .5em;
+    background-color: #e88b8f;
+    width: 75%;
+}
+
+/* Style the input field */
+#sentenceInput {
+    padding: 0.5rem;
+    border: 2px solid #194F92;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+#sentenceForm button[type="submit"] {
+    margin-top: .5em;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    background-color: #194F92;
+    color: #FAFAFB;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+/* Change the submit button color on hover */
+#sentenceForm button[type="submit"]:hover,#copyTextButton:hover {
+    background-color: #3c5f8a;
+}
+
+#copyTextButton{
+    margin-top: .5em;
+    padding: .2em;
+    width: 80%;
+    background-color: #194F92;
+    color: #FAFAFB;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+#copiedText{
+    font-size: 16px;
+    color: green;
 }

@@ -10,9 +10,9 @@
     <div class="nav">
         <div class="nav-container">
             <ul>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">About</a</li>
-                <li><a href="#">Donate</a></li>
+                <li><a href="https://github.com/KenPrz/beshieficator">Github</a></li>
+                <li><a href="https://github.com/KenPrz/beshieficator#beshieficator-2000-mk2">About</a</li>
+                <li><a href="https://wishes.ph/donate/">Donate</a></li>
             </ul>
         </div>
     </div>
@@ -24,11 +24,16 @@
                     <div>
                         <input type="text" id="sentenceInput" required>
                     </div>
-                    <button type="submit" >Beshiefy 💅</button>
-                    <button onclick="copyText()">Copy text</button>
+                    <button type="submit">Beshiefy 💅</button>
                 </form>
-            </div>
-            <div id="result">
+                <div class="beshified">
+                    <h4>Beshified Text</h4>
+                    <div class="beshified-container" id="result">
+                    </div>
+                    <div class="isCopied" id="copiedText">
+                    </div>
+                    <button id="copyTextButton" onclick="copyText()">Copy text</button>
+                </div>
             </div>
         </div>
     </div>

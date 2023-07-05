@@ -20,7 +20,7 @@ function copyText() {
         // Copy the text to the clipboard
         navigator.clipboard.writeText(textToCopy)
             .then(function() {
-                alert("Copied the text: " + textToCopy);
+                alert("Text🤸Copied: " + textToCopy);
             })
             .catch(function(error) {
                 // Display an error message if copying failed
