@@ -1,6 +1,3 @@
-Certainly! Here's a sample README file for your GitHub repository:
-
-```
 # Beshieficator 2000 MK2
 
 Beshieficator 2000 MK2 is a meme website that adds "beshie" emojis to a sentence. It's a fun tool that replaces spaces in a sentence with a 🤸 emoji, making it more playful and entertaining.
@@ -34,6 +31,3 @@ This project is licensed under the [MIT License](LICENSE).
 For any inquiries or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
 
 Enjoy beshiefying your sentences!
-```
-
-Feel free to modify the README file to match your specific project details and add any additional sections as needed.
