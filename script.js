@@ -5,7 +5,7 @@ document.getElementById("sentenceForm").addEventListener("submit", function(even
     var sentence = document.getElementById("sentenceInput").value;
     
     // Replace spaces with an emoji
-    var result = sentence.replace(/\s/g, "🤸");
+    var result = sentence.replace(/^|\s+|\s+$/g, "🤸");
 
     // Display the result
     document.getElementById("result").textContent = result;
