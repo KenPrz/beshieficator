@@ -16,9 +16,7 @@ function copyText() {
     var resultElement = document.getElementById("result");
 
     if(resultElement != '' || null){
-
         var textToCopy = resultElement.textContent;
-
         // Copy the text to the clipboard
         navigator.clipboard.writeText(textToCopy)
             .then(function() {
